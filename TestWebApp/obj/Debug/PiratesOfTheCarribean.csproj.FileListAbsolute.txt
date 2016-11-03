@@ -1,0 +1,6 @@
+C:\Users\elev\Documents\Visual Studio 2013\Projects\TestWebApp\TestWebApp\bin\TestWebApp.dll.config
+C:\Users\elev\Documents\Visual Studio 2013\Projects\TestWebApp\TestWebApp\bin\TestWebApp.dll
+C:\Users\elev\Documents\Visual Studio 2013\Projects\TestWebApp\TestWebApp\bin\TestWebApp.pdb
+C:\Users\elev\Documents\Visual Studio 2013\Projects\TestWebApp\TestWebApp\obj\Debug\PiratesOfTheCarribean.csprojResolveAssemblyReference.cache
+C:\Users\elev\Documents\Visual Studio 2013\Projects\TestWebApp\TestWebApp\obj\Debug\TestWebApp.dll
+C:\Users\elev\Documents\Visual Studio 2013\Projects\TestWebApp\TestWebApp\obj\Debug\TestWebApp.pdb

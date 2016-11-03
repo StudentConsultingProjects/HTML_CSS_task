@@ -61,6 +61,7 @@
     <Content Include="media\pattern.png" />
     <Content Include="media\pieces_of_eight\Pieces of Eight Alt.ttf" />
     <Content Include="media\pieces_of_eight\Pieces of Eight.ttf" />
+    <Content Include="media\saber.png" />
     <Content Include="node_modules\abbrev\abbrev.js" />
     <Content Include="node_modules\ansi-regex\index.js" />
     <Content Include="node_modules\ansi-styles\index.js" />

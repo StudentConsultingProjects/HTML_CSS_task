@@ -8177,11 +8177,22 @@ body {
   padding: 10px 0;
   color: #91804c;
   margin-bottom: 30px; }
-  #header div:nth-child(1) {
+  #header .header-text-container p {
+    margin: 0;
     font-size: 2.8em;
     text-transform: uppercase; }
-  #header div:nth-child(2) {
-    font-size: 1.9em; }
+    #header .header-text-container p:nth-of-type(2) {
+      font-size: 1.9em; }
+    #header .header-text-container p .saber {
+      background: transparent url("../../media/saber.png") center center no-repeat;
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      display: inline-block; }
+    #header .header-text-container p #saber1 {
+      animation: animateSaber1 6s infinite; }
+    #header .header-text-container p #saber2 {
+      animation: animateSaber2 6s infinite; }
 
 .video_container {
   position: relative;
@@ -8252,13 +8263,40 @@ footer {
       bottom: 0; }
 
 @media screen and (max-width: 991px) {
+  #header .header-text-container p:nth-of-type(1) {
+    font-size: 2em; }
   #footer .copyright {
     position: static;
     display: block;
     margin-top: 30px; } }
 
+@media screen and (max-width: 590px) {
+  #header .header-text-container p:nth-of-type(1) {
+    font-size: 1.2em; }
+  #header .header-text-container p:nth-of-type(2) {
+    font-size: 1em; }
+  #header .header-text-container .saber {
+    width: 25px !important;
+    height: 25px !important; } }
+
 @media screen and (max-width: 420px) {
   .video_container .overlay > i {
     font-size: 4em; } }
+
+@keyframes animateSaber1 {
+  0% {
+    transform: rotate(-15deg); }
+  50% {
+    transform: rotate(15deg); }
+  100% {
+    transform: rotate(-15deg); } }
+
+@keyframes animateSaber2 {
+  0% {
+    transform: rotate(15deg); }
+  50% {
+    transform: rotate(-15deg); }
+  100% {
+    transform: rotate(15deg); } }
 
 /*# sourceMappingURL=style.css.map */
