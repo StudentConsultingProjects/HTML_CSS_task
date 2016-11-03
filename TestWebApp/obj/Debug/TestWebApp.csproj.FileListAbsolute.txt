@@ -1,0 +1,6 @@
+c:\users\elev\documents\visual studio 2013\Projects\TestWebApp\TestWebApp\bin\TestWebApp.dll.config
+c:\users\elev\documents\visual studio 2013\Projects\TestWebApp\TestWebApp\bin\TestWebApp.dll
+c:\users\elev\documents\visual studio 2013\Projects\TestWebApp\TestWebApp\bin\TestWebApp.pdb
+c:\users\elev\documents\visual studio 2013\Projects\TestWebApp\TestWebApp\obj\Debug\TestWebApp.csprojResolveAssemblyReference.cache
+c:\users\elev\documents\visual studio 2013\Projects\TestWebApp\TestWebApp\obj\Debug\TestWebApp.dll
+c:\users\elev\documents\visual studio 2013\Projects\TestWebApp\TestWebApp\obj\Debug\TestWebApp.pdb

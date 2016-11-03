@@ -1,0 +1,203 @@
+﻿@font-face {
+    font-family: 'Pieces of Eight';
+    src: url('../media/pieces_of_eight/Pieces of Eight.ttf') format('truetype');
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol
+{
+    margin-left: 18px;
+    list-style-type: square;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #9e8432;
+}
+
+a
+{
+    text-decoration: none;
+    color: #91804c;
+    font-size: 18px;
+
+    &:hover
+    {
+        text-decoration: underline;
+        color: #91804c;
+    }
+}
+
+body
+{
+    min-height: 100vh;
+    background: #000 url('../media/background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#header
+{
+    font-family: 'Pieces of Eight';
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px 0;
+    color: #91804c;
+    margin-bottom: 30px;
+
+    div
+    {
+        &:nth-child(1)
+        {
+            font-size: 2.8em;
+            text-transform: uppercase;
+        }
+        
+        &:nth-child(2)
+        {
+            font-size: 1.9em;
+        }
+    }
+}
+
+.video_container
+{
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    .overlay
+    {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        text-align: center;
+
+        & > i
+        {
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 8em;
+            color: #FFF;
+            opacity: 0.6;
+
+            transition: opacity ease-in-out 0.1s;
+            -webkit-transition: opacity ease-in-out 0.1s;
+        }
+
+        &:hover > i
+        {
+            opacity: 1;
+        }
+    }
+
+    #video_player
+    {
+        width: 100%;
+    }
+}
+
+
+.information-box
+{
+    color: #91804c;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+    h4
+    {
+        margin: 15px 0 5px 0;
+    }
+}
+
+.wrap
+{
+    min-height: 100vh;
+}
+
+footer
+{
+    background: #000 url('../media/pattern.png') repeat;
+    background-size: 15px;
+
+    #footer
+    {
+        color: #91804c;
+        min-height: 300px;
+        position: relative;
+
+        .underline
+        {
+            display: block;
+            width: 90%;
+            border-bottom: 1px solid #9e8432;
+            margin-bottom: 20px;
+        }
+
+        ul
+        {
+            list-style-type: none;
+            margin-left: 0;
+        }
+
+        .social-media a
+        {
+            color: #91804c;
+            display: inline-block;
+            font-size: 35px;
+
+            transition: color ease-in 0.1s;
+            -webkit-transition: color ease-in 0.1s;
+
+            & + a
+            {
+                margin-left: 15px;
+            }
+
+            &:hover
+            {
+                color: #bfbeba;
+            }
+        }
+
+        .copyright
+        {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    #footer .copyright
+    {
+        position: static;
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
+    .video_container
+    {
+        .overlay
+        {
+            & > i
+            {
+                font-size: 4em;
+            }
+        }
+    }
+}
