@@ -1617,20 +1617,6 @@
     <Content Include="node_modules\xmlbuilder\package.json" />
     <Content Include="node_modules\xmlbuilder\README.md" />
     <Content Include="style.css.map" />
-    <Content Include="sass\fontAwesome\font-awesome.scss" />
-    <Content Include="sass\fontAwesome\_animated.scss" />
-    <Content Include="sass\fontAwesome\_bordered-pulled.scss" />
-    <Content Include="sass\fontAwesome\_core.scss" />
-    <Content Include="sass\fontAwesome\_fixed-width.scss" />
-    <Content Include="sass\fontAwesome\_icons.scss" />
-    <Content Include="sass\fontAwesome\_larger.scss" />
-    <Content Include="sass\fontAwesome\_list.scss" />
-    <Content Include="sass\fontAwesome\_mixins.scss" />
-    <Content Include="sass\fontAwesome\_path.scss" />
-    <Content Include="sass\fontAwesome\_rotated-flipped.scss" />
-    <Content Include="sass\fontAwesome\_screen-reader.scss" />
-    <Content Include="sass\fontAwesome\_stacked.scss" />
-    <Content Include="sass\fontAwesome\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
